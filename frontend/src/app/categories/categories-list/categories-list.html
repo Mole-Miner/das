@@ -1,0 +1,9 @@
+<app-shared-category></app-shared-category>
+
+<ul>
+  @for (category of categories(); track category.id) {
+    <li><a [routerLink]="category.id.toString()">Id: {{category.id}} Name: {{ category.name }}</a></li>
+  } @empty {
+    Loading...
+  }
+</ul>

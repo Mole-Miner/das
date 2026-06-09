@@ -1,0 +1,11 @@
+<h2>Categories</h2>
+<p>Some shared info: {{ someAppSharedData() }}</p>
+
+<app-shared-component></app-shared-component>
+
+<p>Time passed on this page: {{asyncPipeCounter$ | async}} {{destroyRefCounter}}</p>
+
+
+<section class="categories-outlet">
+  <router-outlet></router-outlet>
+</section>
