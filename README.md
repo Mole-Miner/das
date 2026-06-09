@@ -1,4 +1,4 @@
-Scaffold for frontend Angular 22 and Dotnet 10 project
+Scaffold for backend Dotnet 10 and frontend Angular 22 project
 
 Backend
 1. Install dotnet cli 10.0
